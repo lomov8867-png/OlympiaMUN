@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OlympiaMUN — Where Gods Deliberate</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ═══════════════════════════════ NAVIGATION ═══════════════════════════════ -->
+<nav class="navbar" id="navbar">
+  <div class="nav-inner">
+    <a href="#hero" class="nav-logo">
+      <img src="assets/logo.png" alt="OlympiaMUN logo" class="nav-logo-img" onerror="this.style.display='none';this.nextElementSibling.style.display='inline'" />
+      <span class="logo-emblem logo-emblem-fallback" style="display:none">⚡</span>
+      <span class="logo-text">OlympiaMUN</span>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#goals">Goals</a></li>
+      <li><a href="#committees">Committees</a></li>
+      <li><a href="#team">Team</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#register" class="nav-cta">Register</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- ═══════════════════════════════ HERO ═══════════════════════════════════ -->
+<section class="hero" id="hero">
+  <div class="hero-bg">
+    <div class="hero-clouds"></div>
+    <div class="hero-columns"></div>
+    <div class="hero-glow"></div>
+    <div class="hero-particles" id="heroParticles"></div>
+  </div>
+  <div class="hero-content">
+    <div class="hero-badge">
+      <span class="badge-line"></span>
+      <span class="badge-text">Mount Olympus Conference</span>
+      <span class="badge-line"></span>
+    </div>
+    <h1 class="hero-title">
+      <span class="title-sup">Welcome to</span>
+      <span class="title-main">OlympiaMUN</span>
+      <span class="title-roman">MMXXVI</span>
+    </h1>
+    <p class="hero-tagline">Where Mortals Rise to Deliberate with the Gods</p>
+    <div class="hero-meta">
+      <div class="meta-item">
+        <span class="meta-icon">📅</span>
+        <div>
+          <span class="meta-label">Event Date</span>
+          <span class="meta-value">XV–XVII September, MMXXVI</span>
+        </div>
+      </div>
+      <div class="meta-divider"></div>
+      <div class="meta-item">
+        <span class="meta-icon">🏛️</span>
+        <div>
+          <span class="meta-label">Venue</span>
+          <span class="meta-value">The Parthenon Grand Hall</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-actions">
+      <a href="#register" class="btn btn-primary">Register Now</a>
+      <a href="#committees" class="btn btn-outline">Explore Committees</a>
+    </div>
+  </div>
+  <div class="hero-scroll-hint">
+    <span>Scroll</span>
+    <div class="scroll-line"></div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════ GOALS ════════════════════════════════════ -->
+<section class="section goals-section" id="goals">
+  <div class="section-header">
+    <div class="section-ornament">
+      <span class="orn-line"></span>
+      <span class="orn-symbol">⚜</span>
+      <span class="orn-line"></span>
+    </div>
+    <h2 class="section-title">Our Goals & Beliefs</h2>
+    <p class="section-subtitle">The four pillars upon which Olympia stands — virtues forged on the sacred mountain.</p>
+  </div>
+  <div class="goals-grid">
+    <div class="goal-card" data-delay="0">
+      <div class="goal-icon-wrap">
+        <div class="goal-icon">🕊️</div>
+      </div>
+      <h3 class="goal-title">Diplomacy</h3>
+      <p class="goal-desc">We cultivate the art of peaceful resolution — teaching delegates to navigate complex international conflicts with grace, precision, and the wisdom of the Olympian council.</p>
+    </div>
+    <div class="goal-card" data-delay="100">
+      <div class="goal-icon-wrap">
+        <div class="goal-icon">👑</div>
+      </div>
+      <h3 class="goal-title">Leadership</h3>
+      <p class="goal-desc">True leaders are forged under pressure. OlympiaMUN challenges delegates to rise, command the floor, and inspire through the authority of reasoned thought and composed presence.</p>
+    </div>
+    <div class="goal-card" data-delay="200">
+      <div class="goal-icon-wrap">
+        <div class="goal-icon">⚡</div>
+      </div>
+      <h3 class="goal-title">Critical Thinking</h3>
+      <p class="goal-desc">Every resolution begins with a question. We sharpen the minds of tomorrow's leaders to dissect complexity, challenge assumptions, and forge solutions from first principles.</p>
+    </div>
+    <div class="goal-card" data-delay="300">
+      <div class="goal-icon-wrap">
+        <div class="goal-icon">🌍</div>
+      </div>
+      <h3 class="goal-title">Global Awareness</h3>
+      <p class="goal-desc">From Athens to the ends of the known world, we nurture a generation that understands the interconnected fabric of global politics, culture, and humanitarian responsibility.</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- ════════════════════════════ COMMITTEES ══════════════════════════════════ -->
+<section class="section committees-section" id="committees">
+  <div class="section-header">
+    <div class="section-ornament">
+      <span class="orn-line"></span>
+      <span class="orn-symbol">⚜</span>
+      <span class="orn-line"></span>
+    </div>
+    <h2 class="section-title">Committees</h2>
+    <p class="section-subtitle">Six divine councils. Six agendas that shape the fate of nations.</p>
+  </div>
+  <div class="committees-grid">
+    <div class="committee-card" data-delay="0">
+      <div class="committee-accent"></div>
+      <div class="committee-inner">
+        <span class="committee-tag">Council I</span>
+        <h3 class="committee-name">United Nations Security Council</h3>
+        <p class="committee-agenda">Agenda: Addressing the proliferation of autonomous weapons in conflict zones</p>
+        <p class="committee-desc">The most powerful body of the United Nations debates the most urgent threats to international peace and security — where every word carries the weight of the world.</p>
+        <a href="#register" class="committee-link">Apply Now <span>→</span></a>
+      </div>
+    </div>
+    <div class="committee-card" data-delay="100">
+      <div class="committee-accent"></div>
+      <div class="committee-inner">
+        <span class="committee-tag">Council II</span>
+        <h3 class="committee-name">United Nations Environment Programme</h3>
+        <p class="committee-agenda">Agenda: Climate displacement and the legal status of environmental refugees</p>
+        <p class="committee-desc">Delegates confront one of the defining crises of the century — forging binding frameworks on climate migration that balance sovereignty and humanity.</p>
+        <a href="#register" class="committee-link">Apply Now <span>→</span></a>
+      </div>
+    </div>
+    <div class="committee-card" data-delay="200">
+      <div class="committee-accent"></div>
+      <div class="committee-inner">
+        <span class="committee-tag">Council III</span>
+        <h3 class="committee-name">Historical Crisis Committee</h3>
+        <p class="committee-agenda">Agenda: The Congress of Vienna, 1815 — Redrawing the map of Europe</p>
+        <p class="committee-desc">Step into history and assume the mantles of empire. This immersive crisis committee demands strategic brilliance and diplomatic cunning at every turn.</p>
+        <a href="#register" class="committee-link">Apply Now <span>→</span></a>
+      </div>
+    </div>
+    <div class="committee-card" data-delay="0">
+      <div class="committee-accent"></div>
+      <div class="committee-inner">
+        <span class="committee-tag">Council IV</span>
+        <h3 class="committee-name">World Health Organisation</h3>
+        <p class="committee-agenda">Agenda: Equitable access to emerging gene-therapy treatments in developing nations</p>
+        <p class="committee-desc">Bioethics, sovereignty, and equity collide as delegates navigate the frontier of modern medicine and the moral imperative of global health justice.</p>
+        <a href="#register" class="committee-link">Apply Now <span>→</span></a>
+      </div>
+    </div>
+    <div class="committee-card" data-delay="100">
+      <div class="committee-accent"></div>
+      <div class="committee-inner">
+        <span class="committee-tag">Council V</span>
+        <h3 class="committee-name">International Press Corps</h3>
+        <p class="committee-agenda">Agenda: Covering the conference — journalism as the fourth pillar of democracy</p>
+        <p class="committee-desc">For delegates who wield words as weapons. Cover debates, write dispatches, and hold the council accountable through the power of the press.</p>
+        <a href="#register" class="committee-link">Apply Now <span>→</span></a>
+      </div>
+    </div>
+    <div class="committee-card" data-delay="200">
+      <div class="committee-accent"></div>
+      <div class="committee-inner">
+        <span class="committee-tag">Council VI</span>
+        <h3 class="committee-name">Disarmament & International Security</h3>
+        <p class="committee-agenda">Agenda: Regulating the use of artificial intelligence in military decision-making</p>
+        <p class="committee-desc">The most pressing question of the digital age — who is responsible when an algorithm decides the fate of thousands? DISEC confronts the future of warfare.</p>
+        <a href="#register" class="committee-link">Apply Now <span>→</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ════════════════════════════ TEAM ════════════════════════════════════════ -->
+<section class="section team-section" id="team">
+  <div class="section-header">
+    <div class="section-ornament">
+      <span class="orn-line"></span>
+      <span class="orn-symbol">⚜</span>
+      <span class="orn-line"></span>
+    </div>
+    <h2 class="section-title">Chairs & Organizers</h2>
+    <p class="section-subtitle">The pantheon that brings Olympia to life — guardians of the deliberation.</p>
+  </div>
+  <div class="team-grid">
+    <div class="team-card" data-delay="0">
+      <div class="team-photo-wrap">
+        <div class="team-photo-placeholder">
+          <img src="assets/team/secgen.jpg" alt="Secretary-General" class="team-photo-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+          <span class="photo-initials" style="display:none">SG</span>
+        </div>
+        <div class="team-photo-ring"></div>
+      </div>
+      <div class="team-info">
+        <h3 class="team-name">&lt;Secretary-General&gt;</h3>
+        <span class="team-role">Secretary-General</span>
+        <p class="team-bio">Presiding over the conference with authority and vision, orchestrating every element of OlympiaMUN with the measured hand of a true statesman.</p>
+      </div>
+    </div>
+    <div class="team-card" data-delay="100">
+      <div class="team-photo-wrap">
+        <div class="team-photo-placeholder">
+          <img src="assets/team/depsecgen.jpg" alt="Deputy Secretary-General" class="team-photo-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+          <span class="photo-initials" style="display:none">DSG</span>
+        </div>
+        <div class="team-photo-ring"></div>
+      </div>
+      <div class="team-info">
+        <h3 class="team-name">&lt;Deputy Secretary-General&gt;</h3>
+        <span class="team-role">Deputy Secretary-General</span>
+        <p class="team-bio">The right hand of the Secretariat, ensuring the seamless execution of all conference logistics and delegate experience from registration to closing ceremony.</p>
+      </div>
+    </div>
+    <div class="team-card" data-delay="200">
+      <div class="team-photo-wrap">
+        <div class="team-photo-placeholder">
+          <img src="assets/team/chair-unsc.jpg" alt="Chairperson, UNSC" class="team-photo-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+          <span class="photo-initials" style="display:none">CR</span>
+        </div>
+        <div class="team-photo-ring"></div>
+      </div>
+      <div class="team-info">
+        <h3 class="team-name">&lt;Chairperson, UNSC&gt;</h3>
+        <span class="team-role">Chair — Security Council</span>
+        <p class="team-bio">Commands the floor of the most prestigious committee with an unwavering command of procedure, substance, and the art of driving consensus.</p>
+      </div>
+    </div>
+    <div class="team-card" data-delay="300">
+      <div class="team-photo-wrap">
+        <div class="team-photo-placeholder">
+          <img src="assets/team/chair-unep.jpg" alt="Chairperson, UNEP" class="team-photo-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+          <span class="photo-initials" style="display:none">CR</span>
+        </div>
+        <div class="team-photo-ring"></div>
+      </div>
+      <div class="team-info">
+        <h3 class="team-name">&lt;Chairperson, UNEP&gt;</h3>
+        <span class="team-role">Chair — Environment Programme</span>
+        <p class="team-bio">A passionate advocate for environmental justice, guiding delegates through the most complex ecological and humanitarian debates with expertise and nuance.</p>
+      </div>
+    </div>
+    <div class="team-card" data-delay="100">
+      <div class="team-photo-wrap">
+        <div class="team-photo-placeholder">
+          <img src="assets/team/head-delegate.jpg" alt="Head of Delegate Affairs" class="team-photo-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+          <span class="photo-initials" style="display:none">HoD</span>
+        </div>
+        <div class="team-photo-ring"></div>
+      </div>
+      <div class="team-info">
+        <h3 class="team-name">&lt;Head of Delegate Affairs&gt;</h3>
+        <span class="team-role">Head of Delegate Affairs</span>
+        <p class="team-bio">The guardian of the delegate journey, responsible for welfare, queries, and ensuring every participant leaves OlympiaMUN transformed.</p>
+      </div>
+    </div>
+    <div class="team-card" data-delay="200">
+      <div class="team-photo-wrap">
+        <div class="team-photo-placeholder">
+          <img src="assets/team/director.jpg" alt="Director of Operations" class="team-photo-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+          <span class="photo-initials" style="display:none">DIR</span>
+        </div>
+        <div class="team-photo-ring"></div>
+      </div>
+      <div class="team-info">
+        <h3 class="team-name">&lt;Director of Operations&gt;</h3>
+        <span class="team-role">Director of Operations</span>
+        <p class="team-bio">The architect of every logistical detail — from venue arrangement to the ceremonial opening, ensuring Olympia rises to its legendary standard.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ════════════════════════════ GALLERY ═════════════════════════════════════ -->
+<section class="section gallery-section" id="gallery">
+  <div class="section-header">
+    <div class="section-ornament">
+      <span class="orn-line"></span>
+      <span class="orn-symbol">⚜</span>
+      <span class="orn-line"></span>
+    </div>
+    <h2 class="section-title">Gallery</h2>
+    <p class="section-subtitle">Moments of deliberation, discourse, and distinction from past Olympias.</p>
+  </div>
+  <div class="gallery-grid">
+    <div class="gallery-item gallery-large" data-delay="0">
+      <div class="gallery-placeholder">
+        <img src="assets/gallery/opening-ceremony.jpg" alt="OlympiaMUN Opening Ceremony" class="gallery-img" onerror="this.style.display='none'" />
+        <div class="gallery-label"><span>Opening Ceremony</span></div>
+        <div class="gallery-overlay"><span>View Photo</span></div>
+      </div>
+    </div>
+    <div class="gallery-item" data-delay="100">
+      <div class="gallery-placeholder">
+        <img src="assets/gallery/unsc-session.jpg" alt="UNSC Committee Session" class="gallery-img" onerror="this.style.display='none'" />
+        <div class="gallery-label"><span>UNSC Session</span></div>
+        <div class="gallery-overlay"><span>View Photo</span></div>
+      </div>
+    </div>
+    <div class="gallery-item" data-delay="150">
+      <div class="gallery-placeholder">
+        <img src="assets/gallery/networking.jpg" alt="Delegates networking at OlympiaMUN" class="gallery-img" onerror="this.style.display='none'" />
+        <div class="gallery-label"><span>Delegate Networking</span></div>
+        <div class="gallery-overlay"><span>View Photo</span></div>
+      </div>
+    </div>
+    <div class="gallery-item" data-delay="200">
+      <div class="gallery-placeholder">
+        <img src="assets/gallery/awards.jpg" alt="Award ceremony at OlympiaMUN" class="gallery-img" onerror="this.style.display='none'" />
+        <div class="gallery-label"><span>Award Ceremony</span></div>
+        <div class="gallery-overlay"><span>View Photo</span></div>
+      </div>
+    </div>
+    <div class="gallery-item gallery-tall" data-delay="50">
+      <div class="gallery-placeholder">
+        <img src="assets/gallery/crisis-committee.jpg" alt="Historical Crisis Committee in session" class="gallery-img" onerror="this.style.display='none'" />
+        <div class="gallery-label"><span>Crisis Committee</span></div>
+        <div class="gallery-overlay"><span>View Photo</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ════════════════════════════ REGISTER ════════════════════════════════════ -->
+<section class="section register-section" id="register">
+  <div class="register-bg-art"></div>
+  <div class="section-header">
+    <div class="section-ornament">
+      <span class="orn-line"></span>
+      <span class="orn-symbol">⚜</span>
+      <span class="orn-line"></span>
+    </div>
+    <h2 class="section-title">Register</h2>
+    <p class="section-subtitle">Claim your seat among the gods. Applications for OlympiaMUN MMXXVI are now open.</p>
+  </div>
+  <div class="register-container">
+    <div class="register-card">
+      <div class="register-left">
+        <h3 class="register-cta-title">Begin Your Ascent</h3>
+        <p class="register-cta-text">Join hundreds of delegates from institutions across the nation. OlympiaMUN is more than a conference — it is a transformation.</p>
+        <ul class="register-perks">
+          <li><span class="perk-icon">✦</span> 3 days of intensive committee sessions</li>
+          <li><span class="perk-icon">✦</span> Mentorship from experienced chairs</li>
+          <li><span class="perk-icon">✦</span> Gala dinner & awards ceremony</li>
+          <li><span class="perk-icon">✦</span> Official delegate certificate</li>
+          <li><span class="perk-icon">✦</span> Delegate networking lounge</li>
+        </ul>
+      </div>
+      <form class="register-form" onsubmit="handleFormSubmit(event)">
+        <div class="form-group">
+          <label for="fname">Full Name</label>
+          <input type="text" id="fname" name="fname" placeholder="Your full name" required />
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="class">Class</label>
+            <input type="text" id="class" name="class" placeholder="e.g. XI" required />
+          </div>
+          <div class="form-group">
+            <label for="section">Section</label>
+            <input type="text" id="section" name="section" placeholder="e.g. A" required />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" placeholder="your@email.com" required />
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone" placeholder="+91 98765 43210" required />
+        </div>
+        <div class="form-group">
+          <label for="achievements">Achievements / Projects</label>
+          <textarea id="achievements" name="achievements" placeholder="Briefly describe your relevant achievements, projects, or experience…" rows="4" required></textarea>
+        </div>
+        <div class="form-group">
+          <label for="committee">Committee Preference</label>
+          <select id="committee" name="committee" required>
+            <option value="" disabled selected>Select a committee</option>
+            <option value="unsc">United Nations Security Council</option>
+            <option value="unep">UN Environment Programme</option>
+            <option value="hcc">Historical Crisis Committee</option>
+            <option value="who">World Health Organisation</option>
+            <option value="ipc">International Press Corps</option>
+            <option value="disec">Disarmament & Int. Security</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-primary btn-full">Submit Application</button>
+        <p class="form-note">By registering you agree to our conference code of conduct.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+
+<!-- ════════════════════════════ FOOTER ══════════════════════════════════════ -->
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <img src="assets/logo.png" alt="OlympiaMUN logo" class="footer-logo-img" onerror="this.style.display='none';this.nextElementSibling.style.display='inline'" />
+          <span class="logo-emblem logo-emblem-fallback" style="display:none">⚡</span>
+          <span class="logo-text">OlympiaMUN</span>
+        </div>
+        <p class="footer-tagline">Where Mortals Rise to Deliberate with the Gods</p>
+        <p class="footer-conf">Mount Olympus Conference · MMXXVI</p>
+      </div>
+      <div class="footer-links">
+        <h4 class="footer-heading">Navigate</h4>
+        <ul>
+          <li><a href="#goals">Goals & Beliefs</a></li>
+          <li><a href="#committees">Committees</a></li>
+          <li><a href="#team">Chairs & Organizers</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#register">Register</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4 class="footer-heading">Contact</h4>
+        <p class="footer-email">📧 secretariat@olympiamun.org</p>
+        <div class="footer-social">
+          <a href="#" class="social-link" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+          </a>
+          <a href="#" class="social-link" aria-label="Twitter/X">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          </a>
+          <a href="#" class="social-link" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-divider">
+      <span class="footer-laurel">🌿 ⚡ 🌿</span>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 OlympiaMUN. All rights reserved.</p>
+      <p>Crafted with the spirit of Olympus.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Toast notification -->
+<div class="toast" id="toast">
+  <span class="toast-icon">✦</span>
+  <span class="toast-msg">Application submitted! We shall be in touch.</span>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

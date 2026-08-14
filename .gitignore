@@ -1,0 +1,25 @@
+# ── Node ──────────────────────────────────────────────────────
+node_modules/
+
+# ── Environment variables (may contain secrets) ───────────────
+.env
+.env.local
+.env.production
+
+# ── SQLite database and all associated journal/WAL files ───────
+# Matches olympiamun.db and any path ending in .db, .db-shm, .db-wal,
+# .db-journal, or the .tmp written during atomic persist().
+backend/data/*.db
+backend/data/*.db-shm
+backend/data/*.db-wal
+backend/data/*.db-journal
+backend/data/*.db.tmp
+backend/data/*.tmp
+
+# Keep the data directory in git (the .db file itself is excluded above)
+!backend/data/.gitkeep
+
+# ── OS / editor noise ─────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/settings.json
